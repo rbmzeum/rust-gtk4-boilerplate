@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemalist>
+  <schema id="net.rust-gtk4-boilerplate" path="/net/rust-gtk4-boilerplate/">
+    <key name="is-maximized" type="b">
+      <default>true</default>
+      <summary>Default maximized state</summary>
+    </key>
+    <key name="default-width" type="i">
+      <default>1200</default>
+      <summary>Default width</summary>
+    </key>
+    <key name="default-height" type="i">
+      <default>600</default>
+      <summary>Default height</summary>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="RustGtk4BoilerplateWindow" parent="GtkApplicationWindow">
+    <property name="title">Rust Gtk4 Boilerplate</property>
+    <child>
+        <object class="GtkLabel" id="label">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Hello, World!</property>
+        </object>
+    </child>
+  </template>
+</interface>
